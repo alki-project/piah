@@ -1,0 +1,64 @@
+[[piah]]
+piah
+----
+
+Piah is a library for constructing large data transformations out
+of smaller individual processes. When given input data, and a set of
+of processors, piah will automatically order and connect the processors
+into a pipeline to produce output.
+
+[[installation]]
+Installation
+~~~~~~~~~~~~
+
+Add this line to your application's Gemfile:
+
+[source,ruby]
+----
+gem 'piah'
+----
+
+And then execute:
+
+....
+$ bundle
+....
+
+Or install it yourself as:
+
+....
+$ gem install piah
+....
+
+[[usage]]
+Usage
+~~~~~
+
+TODO: Write usage instructions here
+
+
+[[contributing]]
+Contributing
+~~~~~~~~~~~~
+
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/alki-project/piah. This project is intended to be a
+safe, welcoming space for collaboration, and contributors are expected
+to adhere to the http://contributor-covenant.org[Contributor Covenant]
+code of conduct.
+
+[[license]]
+License
+~~~~~~~
+
+The gem is available as open source under the terms of the
+http://opensource.org/licenses/MIT[MIT License].
+
+[[code-of-conduct]]
+Code of Conduct
+~~~~~~~~~~~~~~~
+
+Everyone interacting in the Piah project’s codebases, issue trackers,
+chat rooms and mailing lists is expected to follow the
+https://github.com/alki-project/piah/blob/master/CODE_OF_CONDUCT.md[code
+of conduct].
